@@ -1,4 +1,22 @@
 * {
-  outline: 1px dotted orange;
-  color: blue;
+  color: darkblue;
+  font-family: monospace;
+  text-align: center;
+  background-color: lightblue;
+
+}
+
+p, li {
+  font-family: arial;
+  color: black;
+  text-align: center;
+}
+
+li {
+  margin-right: 44px;
+}
+
+
+ul {
+  list-style-type: none;
 }
