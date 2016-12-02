@@ -1,6 +1,8 @@
 'use strict';
-//hi
-// The questions in the guessing game must require a mix of yes/no answers, and user input must accept either y/n or yes/no questions, with either .toUpperCase() or .toLowerCase() used to validate the user input and accommodate users entering all-caps Y/N or YES/NO answers, too.
+// The questions in the guessing game must require a mix of yes/no answers,
+// and user input must accept either y/n or yes/no questions, with either
+// .toUpperCase() or .toLowerCase() used to validate the user input and
+// accommodate users entering all-caps Y/N or YES/NO answers, too.
 
 var response1 = prompt('Do you want to play "Know About Alejandro"?').toLowerCase();
 console.log(response1);
@@ -14,8 +16,7 @@ function question1() {
   }
 }
 question1();
-//q1 end
-
+// q1 ends
 var response2 = prompt('Is Alejandro attending Code Fellows?').toLowerCase();
 console.log(response2);
 function question2() {
@@ -28,8 +29,7 @@ function question2() {
   }
 }
 question2();
-//q2 end
-
+// q2 ends
 var response3 = prompt('Is Code 201 awesome?').toLowerCase();
 console.log(response3);
 function question3() {
@@ -42,8 +42,7 @@ function question3() {
   }
 }
 question3();
-//q3 end
-
+// q3 ends
 var response4 = prompt('Interested so far?').toLowerCase();
 console.log(response4);
 function question4(){
@@ -55,9 +54,8 @@ function question4(){
     alert('Try to answer with a yes/y or no/n next time.');
   }
 }
-//q4 ends
 question4();
-
+// q4 ends
 var response5 = prompt('Ready to know more about Alejandro?').toLowerCase();
 console.log(response5);
 function question5() {
@@ -69,9 +67,8 @@ function question5() {
     alert('Try to answer with a yes/y or no/n next time.');
   }
 }
-//q5 ends
 question5();
-// added question 6
+// q5 end
 function question6() {
   for (var i = 0; i < 4; i++) {
     var favNumber = parseInt(prompt('What is my favorite number?'));
@@ -94,9 +91,8 @@ function question6() {
     }
   }
 }
-//q6 ends
 question6();
- //added question 7
+// q6 ends
 function question7() {
   var cities = ['phoenix', 'san francisco', 'baltimore', 'seattle', 'tacoma', 'upland'];
   var guesses = 0;
@@ -122,5 +118,5 @@ function question7() {
     alert('You ran out of choices');
   }
 }
-//q7 ends
 question7();
+// q7 ends
