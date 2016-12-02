@@ -15,6 +15,7 @@ function question1() {
 }
 question1();
 //q1 end
+
 var response2 = prompt('Is Alejandro attending Code Fellows?').toLowerCase();
 console.log(response2);
 function question2() {
@@ -27,7 +28,7 @@ function question2() {
   }
 }
 question2();
-// //q2 end
+//q2 end
 
 var response3 = prompt('Is Code 201 awesome?').toLowerCase();
 console.log(response3);
@@ -68,6 +69,7 @@ function question5() {
     alert('Try to answer with a yes/y or no/n next time.');
   }
 }
+//q5 ends
 question5();
 // added question 6
 function question6() {
@@ -92,6 +94,7 @@ function question6() {
     }
   }
 }
+//q6 ends
 question6();
  //added question 7
 function question7() {
@@ -115,10 +118,9 @@ function question7() {
       guesses ++;
     }
   }//end of while loop
-
-
   if (guesses >= 6) {
     alert('You ran out of choices');
   }
 }
+//q7 ends
 question7();
